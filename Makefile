@@ -28,3 +28,4 @@ generic-tf-init:
 tf-init:
 	make generic-tf-init WORKSPACE=rke-cluster
 	make generic-tf-init WORKSPACE=rke-k8s
+	make generic-tf-init WORKSPACE=rancher-bootstrap
