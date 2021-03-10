@@ -13,3 +13,6 @@ terraform.tfvars
 
 # Kubernetes
 kubeconfig.*.yml
+
+# RKE
+terraform-provider-rke-tmp-*
