@@ -37,12 +37,6 @@ resource "rke_cluster" "prod" {
     user              = "root"
     role              = ["worker"]
   }
-  nodes {
-    address           = "trz-prod-wo-3.sikademo.com"
-    hostname_override = "prod-wo-3"
-    user              = "root"
-    role              = ["worker"]
-  }
   ingress {
     provider = "none"
   }
